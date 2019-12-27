@@ -43,8 +43,6 @@ function operationButton(nameOperation) {
 		flag = false;
 		button = nameOperation;
 		buttonBefore = nameOperation;
-		
-		
 	}
 }
 		
@@ -57,7 +55,6 @@ function equalsButton() {
 			selectButton(buttonBefore);
 		}
 	}
-	
 }
 		
 function selectButton(button) {
@@ -85,7 +82,6 @@ function selectButton(button) {
 		}else{
 			document.getElementById('input').innerHTML = "Error";
 		}
-		
 		break;
 	case equals:
 		res = Number.parseInt(document.getElementById('input').innerHTML);
