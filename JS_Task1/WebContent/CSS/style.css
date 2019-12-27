@@ -1,0 +1,24 @@
+.mainDiv{
+	width: 135px;
+	height: 190px;
+	margin-top: 20%;
+	margin-left: 35%;
+	padding: 10px;
+	border: 1px solid black;
+}
+.input{
+	width: 130px; 
+	height: 20px; 
+	border: 1px solid black;
+	text-align: right;
+}
+.number{
+	width: 30px; 
+	height: 30px; 
+	margin-top: 10px;
+}
+.equals{
+	width: 64px; 
+	height: 30px; 
+	margin-top: 10px;
+}
