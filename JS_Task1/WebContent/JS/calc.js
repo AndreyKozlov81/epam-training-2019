@@ -12,7 +12,6 @@ var button = empty;
 var buttonBefore = empty;
 
 function numberButton(val) {
-	
 	if(!flag){
 		input.innerHTML = "";
 		input.append(val);

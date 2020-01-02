@@ -15,6 +15,7 @@ function createCalc() {
 	divide.value = '/';
 	c.value = 'C';
 	equals.value = '=';
+	
 	for (var i = 1; i < 11; i++) {
 		if(i == 10){
 			calc.append(getButton('numberButton', 0));
