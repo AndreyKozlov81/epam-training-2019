@@ -12,18 +12,19 @@ var button = empty;
 var buttonBefore = empty;
 
 function numberButton(val) {
+	
 	if(!flag){
-		document.getElementById('input').innerHTML = "";
-		document.getElementById('input').append(val);
-		valueSecond = document.getElementById('input').innerHTML;
+		input.innerHTML = "";
+		input.append(val);
+		valueSecond = input.innerHTML;
 		flag = true;
 	}else{
-		if(document.getElementById('input').innerHTML == "0"){
-			document.getElementById('input').innerHTML = "";
+		if(input.innerHTML == "0"){
+			input.innerHTML = "";
 		}
-		document.getElementById('input').append(val);
-		valueFirst = document.getElementById('input').innerHTML;
-		valueSecond = document.getElementById('input').innerHTML;
+		input.append(val);
+		valueFirst = input.innerHTML;
+		valueSecond = input.innerHTML;
 	}
 }
 
@@ -31,7 +32,7 @@ function clearButton() {
 	res = 0;
 	flag = true;
 	button = empty;
-	document.getElementById('input').innerHTML = "";
+	input.innerHTML = "";
 }
 
 function operationButton(nameOperation) {
@@ -61,30 +62,30 @@ function selectButton(button) {
 	switch (button) {
 	case empty:
 		res = Number.parseInt(valueFirst);
-		document.getElementById('input').innerHTML = res;
+		input.innerHTML = res;
 		break;
 	case plus:
 		res += Number.parseInt(valueSecond);
-		document.getElementById('input').innerHTML = res;
+		input.innerHTML = res;
 		break;
 	case minus:
 		res -= Number.parseInt(valueSecond);
-		document.getElementById('input').innerHTML = res;
+		input.innerHTML = res;
 		break;
 	case multiply:
 		res *= Number.parseInt(valueSecond);
-		document.getElementById('input').innerHTML = res;
+		input.innerHTML = res;
 		break;
 	case divide:
 		if(valueSecond != 0){
 			res /= Number.parseInt(valueSecond);
-			document.getElementById('input').innerHTML = res;
+			input.innerHTML = res;
 		}else{
-			document.getElementById('input').innerHTML = "Error";
+			input.innerHTML = "Error";
 		}
 		break;
 	case equals:
-		res = Number.parseInt(document.getElementById('input').innerHTML);
+		res = Number.parseInt(input.innerHTML);
 		break;
 	}
 }

@@ -1,24 +1,36 @@
 .mainDiv{
-	width: 135px;
-	height: 190px;
+	width: 210px;
+	height: 243px;
 	margin-top: 20%;
 	margin-left: 35%;
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 	border: 1px solid black;
+	background: #7CFC00;
+	
 }
 .input{
-	width: 130px; 
-	height: 20px; 
-	border: 1px solid black;
+	width: 198px; 
+	height: 40px; 
+	border: 1px solid #7CFC00;
 	text-align: right;
+	background: white;
+	font-size: 25px;
+	font-family: arial;
+	line-height: 40px;
 }
 .number{
-	width: 30px; 
-	height: 30px; 
-	margin-top: 10px;
+	width: 50px; 
+	height: 50px; 
+	border: none;
+	font-size: 25px;
+	background: #ADFF2F;
+	outline: none;
 }
-.equals{
-	width: 64px; 
-	height: 30px; 
-	margin-top: 10px;
+.number:hover{
+	background: #00FF00;
+	color:black;
+	transition: 0.5s;
+	cursor: pointer;
 }

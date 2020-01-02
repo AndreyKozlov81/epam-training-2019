@@ -6,25 +6,10 @@
 	<link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+	<script src="JS/formCalc.js"></script>
 	<script src="JS/calc.js"></script>
-	<div class="mainDiv">
-		<div id="input" class="input"></div>
-		<button id="one" onclick="numberButton(1)" class="number">1</button>
-		<button id="two" onclick="numberButton(2)" class="number">2</button>
-		<button id="three" onclick="numberButton(3)" class="number">3</button>
-		<button id="plus" onclick="operationButton('plus')" class="number">+</button><br>
-		<button id="four" onclick="numberButton(4)" class="number">4</button>
-		<button id="five" onclick="numberButton(5)" class="number">5</button>
-		<button id="six" onclick="numberButton(6)" class="number">6</button>
-		<button id="minus" onclick="operationButton('minus')" class="number">-</button><br>
-		<button id="seven" onclick="numberButton(7)" class="number">7</button>
-		<button id="eight" onclick="numberButton(8)" class="number">8</button>
-		<button id="nine" onclick="numberButton(9)" class="number">9</button>
-		<button id="multiply" onclick="operationButton('multiply')" class="number">*</button><br>
-		<button id="zero" onclick="numberButton(0)" class="number">0</button>
-		<button id="clear" onclick="clearButton()" class="number">C</button>
-		<button id="equals" onclick="equalsButton()" class="number">=</button>
-		<button id="divide" onclick="operationButton('divide')" class="number">/</button><br>
-	</div>
+	<script>
+		createCalc();
+	</script>
 </body>
 </html>
