@@ -92,6 +92,7 @@ function subMenuAction() {
  * displays the current date and time in the footer of the page
  */
 var date = new Date();
+
 var options = {
 	weekday: 'long',
 	day: '2-digit',
