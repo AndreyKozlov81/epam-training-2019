@@ -1,0 +1,85 @@
+.form{
+	width: 300px;
+	min-height: 50px;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 10px;
+	border: 2px solid #22AC8A;
+	text-align: center;
+}
+#form-reg{
+	display: none;
+}
+#form-log{
+	display: none;
+}
+.input{
+	width: 286px;
+	height: 30px;
+	margin-bottom: 15px;
+	border: 1px solid #22AC8A;
+	color: #22AC8A; 
+	font-size: 20px;
+	padding-left: 10px;
+	outline: none;
+}
+.title{
+	font-family: arial;
+	font-size: 15px;
+	color: #22AC8A; 
+}
+.log-button{
+	background: none;
+	height: 30px;
+	border: 1px solid #22AC8A;
+	font-family: arial;
+	font-size: 15px;
+	color: #22AC8A; 
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+}
+.log-button:hover {
+	background: #22AC8A;
+	color: white;
+}
+.button{
+	background: none;
+	height: 30px;
+	border: 1px solid #22AC8A;
+	font-family: arial;
+	font-size: 15px;
+	color: #22AC8A; 
+	outline: none;
+	cursor: pointer;
+}
+.button:hover {
+	background: #22AC8A;
+	color: white;
+}
+#form-title{
+	height: 30px;
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	color: #22AC8A; 
+	margin-top: 100px;
+}
+#load{
+	text-align: center;
+}
+.error-message{
+	margin-top: -15px;
+	color: red;
+}
+#info{
+	display: inline-block;
+	float: right;
+	width: 400px;
+	text-align: right;
+	color: #22AC8A;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	margin-right: 20px;
+}

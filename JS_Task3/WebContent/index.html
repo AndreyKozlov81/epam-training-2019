@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Index</title>
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+	<button id="log-button" class="log-button">LogIn</button>
+	<button id="reg-button" class="log-button">Registration</button>
+	<button id="logout-button" class="log-button">LogOut</button>
+	<div id="info"></div>
+	<div id="form-title"></div>
+	<div id="form-reg" class="form">
+		<div id="login-title" class="title">Enter your name:</div>
+		<input type="text" class="input" id="login-reg"><br>
+		<div id="email-title" class="title">Enter your email:</div>
+		<input type="email" class="input" id="email"><br>
+		<div id="password-title" class="title">Enter your password:</div>
+		<input type="password" class="input" id="password-reg"><br>
+		<div id="confPassword-title" class="title">Confirm password:</div>
+		<input type="password" class="input" id="confPassword"><br>
+		<input type="button" id="reg" class="button" value="Registration">
+	</div>
+	<div id="form-log" class="form">
+		<div id="login-title" class="title">Enter your name:</div>
+		<input type="text" class="input" id="login-log"><br>
+		<div id="password-title" class="title">Enter your password:</div>
+		<input type="password" class="input" id="password-log"><br>
+		<input type="button" id="login" class="button" value="LogIn">
+	</div>
+	<div id="load"></div>
+	 
+	<!-- checking user data in the browser -->
+	<script src="JS/checkUserLogIn.js"></script>
+	  
+	<!-- formManager -->
+	<script src="JS/formManager.js"></script>
+	
+	<!-- creating events for the LogIn and Register buttons 
+		and primary validation of input data 
+	-->
+	<script src="JS/createEventsButtons.js"></script>
+	
+	<!-- adding a user to the database -->
+	<script src="JS/addUserToDB.js"></script>
+	
+	<!-- getting a user from the database -->
+	<script src="JS/getUserFromDB.js"></script>
+	
+</body>
+</html>
