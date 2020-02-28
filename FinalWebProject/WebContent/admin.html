@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>admin</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript">
+		if(sessionStorage.getItem('language') == 'ru'){
+			document.write("<script src='ru/dict_ru.properties' type='text/javascript'><\/script>");
+		}else{
+			document.write("<script src='en/dict_en.properties' type='text/javascript'><\/script>");
+		}
+	</script>
+	<script src="js/createDOMElements.js"></script>
+</head>
+<body>
+	<div class="box">
+		<div id="main" class="main"></div>
+	</div>
+	
+	<script src="js/admin/adminCreateButtons.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/admin/adminDishEditor.js"></script>
+	<script src="js/showCurrentDate.js"></script>
+	<script src="js/admin/adminShowAllOrders.js"></script>
+	<script src="js/admin/adminShowOrderInfo.js"></script>
+	<script src="js/admin/adminLogout.js"></script>
+	
+	
+	
+	
+	
+	
+</body>
+</html>

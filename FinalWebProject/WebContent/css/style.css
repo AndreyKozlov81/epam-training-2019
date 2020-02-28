@@ -1,0 +1,267 @@
+body{
+	background: #F59521;
+	margin: 0 auto;
+}
+.box{
+	width: 80%;
+	min-height: 100px;
+	background: white;
+	margin: 0 auto;
+	margin-top:10px;
+	border-radius: 5px;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	color: #C55406;
+	text-align: center;
+	font-size: 60px;
+	line-height: 90px;
+}
+.line{
+	width: 96%;
+	height: 3px;
+	background: #C55406;
+	margin: 0 auto;
+	box-shadow: 0px 0px 3px 2px rgba(197,84,6,0.5);
+	border-radius: 50%;
+}
+.main{
+	width: 100%;
+	min-height: 630px;
+	color: #C55406;
+	/*padding: 10px;*/
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	color: #C55406;
+	
+}
+.log-button{
+	background: none;
+	height: 30px;
+	border: 1px solid #C55406;
+	border-radius:3px;
+	font-family: arial;
+	font-size: 15px;
+	color: #C55406; 
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.log-button:hover {
+	background: #C55406;
+	color: white;
+}
+.accept-button, .paid-button{
+	background: none;
+	height: 40px;
+	border-right: 2px solid #C55406;
+	border-left: 2px solid #C55406;
+	border-bottom: none;
+	border-top: none;
+	font-family: arial;
+	font-size: 15px;
+	color: #C55406; 
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 40px;
+}
+.accept-button:hover, .paid-button:hover {
+	background: #C55406;
+	color: white;
+}
+
+#form-title{
+	height: 30px;
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	color: #C55406; 
+	margin-top: 50px;
+}
+.form{
+	width: 300px;
+	min-height: 50px;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 10px;
+	border: 2px solid #C55406;
+	text-align: center;
+	border-radius: 4px;
+}
+/*
+#form-reg{
+	display: none;
+}
+#form-log{
+	display: none;
+}
+*/
+.input{
+	width: 286px;
+	height: 30px;
+	margin-bottom: 15px;
+	border: 1px solid #C55406;
+	color: #C55406; 
+	font-size: 20px;
+	padding-left: 10px;
+	outline: none;
+	border-radius: 3px;
+}
+.input:hover{
+	box-shadow: 0px 0px 14px 0px rgba(197,84,6,0.50);
+	cursor: pointer;
+}
+.title{
+	font-family: arial;
+	font-size: 15px;
+	color: #C55406; 
+}
+.button{
+	background: none;
+	height: 30px;
+	border: 1px solid #C55406;
+	font-family: arial;
+	font-size: 15px;
+	color: #C55406; 
+	outline: none;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.button:hover {
+	background: #C55406;
+	color: white;
+	cursor: pointer;
+}
+#load{
+	text-align: center;
+}
+.error-message{
+	margin-top: -15px;
+	color: red;
+}	
+#date{
+	display: inline-block;
+	float: right;
+	width: 200px;
+	text-align: center;
+	color:  #C55406;
+	font-size: 20px;
+	font-family: arial;
+	margin-top: 10px;
+}
+#info{
+	display: inline-block;
+	float: right;
+	width: 400px;
+	text-align: right;
+	color:  #C55406;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+.orderTable{
+	width: 96%;
+	min-height: 50px;
+	margin: 0 auto;
+}
+
+.orderInfoTable{
+	width: 96%;
+	min-height: 50px;
+	margin: 0 auto;
+}
+.orderTable-row{
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid #C55406;
+}
+.orderTable-cell{
+	height: 40px;
+	float: left;
+	color: #C55406;
+	text-align: left;
+	font-size: 25px;
+	font-family: arial;
+	line-height: 40px;
+	padding-left: 3%;
+}
+
+.orderInfo-row{
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid #C55406;
+}
+.orderInfoDishesTitle{
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid #C55406;
+	color: #C55406;
+	text-align: center;
+	font-size: 25px;
+	font-family: arial;
+	line-height: 40px;
+}
+.orderInfo-cell{
+	height: 40px;
+	float: left;
+	color: #C55406;
+	text-align: left;
+	font-size: 25px;
+	font-family: arial;
+	line-height: 40px;
+	padding-left: 3%;
+}
+.dishInfo-cell{
+	height: 40px;
+	float: left;
+	color: #C55406;
+	text-align: left;
+	font-size: 25px;
+	font-family: arial;
+	line-height: 40px;
+	padding-left: 3%;
+}	
+.check-del{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 20px;
+	height: 20px;
+}
+.sectionAddOrder{
+	width: 80%;
+	margin: 0 auto;
+}
+.menuSection{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.addDishSection{
+	width: 70%;
+	min-height: 100px;
+	border: 1px solid #C55406;
+	border-radius:3px;
+	margin: 0 auto;
+}
+.addDishHeader{
+	width: 100%;
+	height:20px;
+	margin-left: 50px;
+	margin-top: 10px;
+	font-family: arial;
+	font-size: 15px;
+}
+.nameDishHeader{
+	float: left;
+}

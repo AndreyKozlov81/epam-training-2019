@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>customer</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript">
+		if(sessionStorage.getItem('language') == 'ru'){
+			document.write("<script src='ru/dict_ru.properties' type='text/javascript'><\/script>");
+		}else{
+			document.write("<script src='en/dict_en.properties' type='text/javascript'><\/script>");
+		}
+	</script>
+	<script src="js/createDOMElements.js"></script>
+</head>
+<body>
+	<div class="box">
+		<div id="main" class="main"></div>
+	</div>
+		
+	<script src="js/customer/customerCreateButtons.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/showCurrentDate.js"></script>
+	<script src="js/customer/customerShowOrderInfo.js"></script>
+	<script src="js/customer/customerAddOrder.js"></script>
+	<script src="js/customer/customerMain.js"></script>
+	<script src="js/customer/customerLogout.js"></script>
+	
+</body>
+</html>

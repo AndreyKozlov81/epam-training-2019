@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript">
+		if(sessionStorage.getItem('language') == 'ru'){
+			document.write("<script src='ru/dict_ru.properties' type='text/javascript'><\/script>");
+		}else{
+			document.write("<script src='en/dict_en.properties' type='text/javascript'><\/script>");
+		}
+	</script>
+	<script src="js/createDOMElements.js"></script>
+</head>
+<body>
+	
+	<div class="box">
+		<div class="main"></div>
+	</div>
+	<!-- 
+		the script:
+		- deletes all user data in the session 
+		- creates a button for selecting a language, a button for logging in, and a button for registering
+		- adds event listeners for language selection, login, and registration buttons
+		- contains functions for displaying data entry forms for logging in and registering
+		- contains functions for changing the language, logging in, and registering
+		- contains functions for checking input data and creating errors
+	-->
+	<script src="js/index/indexFormManager.js"></script>
+	<!-- the script creates a header -->
+	<script src="js/header.js"></script>
+	<!-- the script creates a footer -->
+	<script src="js/footer.js"></script>
+	<!-- the script shows the current date -->
+	<script src="js/showCurrentDate.js"></script>
+	<!-- adding a user to the database -->
+	<script src="js/index/addUserToDB.js"></script>
+	<!-- getting a user from the database -->
+	<script src="js/index/getUserFromDB.js"></script>
+</body>
+</html>
